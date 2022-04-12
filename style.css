@@ -186,22 +186,6 @@ img {
 
 /* Hero Section */
 
-#myVideo {
-	/* position: fixed;
-	right: 0;
-	bottom: 0;
-	min-width: 100%;
-	min-height: 100%; */
-	
-	position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 90%;
-    object-fit: fill;
-    background-attachment: fixed;
-	z-index: -1;
-  }
 
   ul, li{
 	  display: inline;
@@ -210,51 +194,6 @@ img {
 
   
 
-  .cta {
-	
-	text-align:fit-content;
-	display: inline-block;
-    padding: 10px 10px;
-	color: white;
-	background-color: transparent;
-	border: 1px solid rgb(255, 255, 255);
-	font-size: 2.1rem;
-	/* text-transform: uppercase; */
-	letter-spacing: 0.1rem;
-	margin-top: 21px;
-	transition: 0.3s ease;
-	border-radius: 20px;
-	transition-property: background-color, color, border;
-}
-.cta:hover {
-	color: white;
-	background-color: rgb(28, 109, 109);
-	border: 1px solid rgb(7, 58, 58);
-	
-}
-
-.cta1 {
-	
-	text-align:fit-content;
-	display: inline-block;
-    padding: 10px 10px;
-	color: white;
-	border: 1px solid rgb(185, 221, 199);
-	background-color: rgb(98, 184, 187);
-	font-size: 2.1rem;
-	/* text-transform: uppercase; */
-	letter-spacing: 0.1rem;
-	margin-top: 21px;
-	border-radius: 20px;
-	margin-right: 15px;
-	transition: 0.3s ease;
-	transition-property: background-color, color, border;
-}
-.cta1:hover {
-	color: white;
-	border: 1px solid rgb(35, 86, 94);
-	background-color: rgb(20, 159, 180)
-}
 
 #services {
 	padding-top: 100px;
@@ -264,7 +203,6 @@ img {
 	padding-top: 100px;
 }
 
-}
 #hero::after {
 	content: '';
 	position: absolute;
@@ -1067,8 +1005,8 @@ img {
 
   
 
-  .cta {
-	float: right;
+.cta {
+	float:right;
 	text-align:fit-content;
 	display: inline-block;
     padding: 10px 10px;
@@ -1657,7 +1595,7 @@ transform: scale(1.2);}
 }
 .img123{
 	width: 100%;
-	height: auto;
+	height: 50%;
 }
 .top-left {
 	position: absolute;
@@ -1673,4 +1611,11 @@ transform: scale(1.2);}
 	right: -10%;
 	transform: translate(-50%, -50%);
 	color: rgb(246, 247, 241);
+}
+#arrive{
+	display: block;
+	width: fit-content;
+	font-size: 4rem;
+	position: relative;
+	color: transparent;
 }
